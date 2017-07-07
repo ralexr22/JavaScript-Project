@@ -1,9 +1,10 @@
 (function() {
     function AlbumCtrl() {
-      this.album.songs = [];
-      for (var i=0; i < 5; i++) {
-        this.album.songs.push(angular.copy(albumPicasso));
-      }
+      this.albumData = angular.copy(albumPicasso);
+      // this.album.songs = [];
+      // for (var i=0; i < 5; i++) {
+      //   this.album.songs.push(angular.copy(albumPicasso));
+      // }
     }
 
     angular
