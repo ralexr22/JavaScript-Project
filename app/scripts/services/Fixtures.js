@@ -41,6 +41,7 @@
       for (var i=0; i < numberOfAlbums; i++) {
         this.albums.push(angular.copy(albumPicasso));
           return this.albums
+          console.log(this.albums)
       }
     }
 
